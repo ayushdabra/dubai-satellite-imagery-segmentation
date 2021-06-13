@@ -85,13 +85,13 @@ Here are some sample augmented images and masks from the dataset:
 
 <!-- <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t3_002.jpg" /></p>
 
-<br>
-
-<p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t4_006.jpg" /></p>
-
 <br> -->
 
 <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t6_007.jpg" /></p>
+
+<br>
+
+<p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t4_006.jpg" /></p>
 
 ## InceptionResNetV2 Encoder based UNet Model
 
@@ -99,7 +99,7 @@ Here are some sample augmented images and masks from the dataset:
 
 <br>
 
-<p align="center"><img width = "75%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
+<p align="center"><img width = "85%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
 
 <p align="center">Source: <a href="https://arxiv.org/pdf/1602.07261v2.pdf">https://arxiv.org/pdf/1602.07261v2.pdf</a></p>
 <br>
@@ -108,7 +108,7 @@ Here are some sample augmented images and masks from the dataset:
 
 <br>
 
-<p align="center"><img width = "60%" height= "auto" src="./readme_images/UNet.png" /></p>
+<p align="center"><img width = "80%" height= "auto" src="./readme_images/UNet.png" /></p>
 
 <p align="center">Source: <a href="https://arxiv.org/pdf/1505.04597.pdf">https://arxiv.org/pdf/1505.04597.pdf</a></p>
 
@@ -139,7 +139,7 @@ A detailed layout of the model is available [here](./readme_images/model.png).
 | :--------------------: | :--------------------------------: | :--------------------: | :------------: | :--------: | :------------------: | :----------: | :------: |
 | InceptionResNetV2-UNet | 45 (best at 34<sup>th</sup> epoch) |         0.8525         |     0.9152     |   0.2561   |        0.8112        |    0.8573    |  0.4268  |
 
-<p align="center"><img width = "98%" height= "auto" src="./readme_images/model_metrics_plot.png" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./readme_images/model_metrics_plot.png" /></p>
 
 The <a href="./model_training.csv">`model_training.csv`</a> file contain epoch wise training details of the model.
 
