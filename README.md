@@ -1,4 +1,4 @@
-# Dubai Satellite Imagery Semantic Segmentation 
+# Dubai Satellite Imagery Semantic Segmentation
 
 ## Abstract
 
@@ -49,11 +49,10 @@ The images are densely labeled and contain the following 6 classes:
 
 ### Sample Images & Masks
 
-|                                                                                                          |                                                                                                          |
+| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_004.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t7_002.jpg" /></p> |
 | :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-| <p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t8_004.jpg" /></p> | <p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t7_002.jpg" /></p> |
-| <p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t8_003.jpg" /></p> | <p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t8_006.jpg" /></p> |
-| <p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t6_002.jpg" /></p> | <p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t4_001.jpg" /></p> |
+| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_003.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_006.jpg" /></p> |
+| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t6_002.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t4_001.jpg" /></p> |
 
 ## Technical Approach
 
@@ -136,9 +135,9 @@ A detailed layout of the model is available [here](./readme_images/model.png).
 
 ### Training Results
 
-|         Model          |                   Epochs                   | Train Dice Coefficient | Train Accuracy | Train Loss | Val Dice Coefficient | Val Accuracy | Val Loss |
-| :--------------------: | :----------------------------------------: | :--------------------: | :------------: | :--------: | :------------------: | :----------: | :------: |
-| InceptionResNetV2-UNet | 45 (best at 34<sup>th</sup> epoch) |         0.8525         |     0.9152     |   0.2561    |        0.8112        |    0.8573    |  0.4268  |
+|         Model          |               Epochs               | Train Dice Coefficient | Train Accuracy | Train Loss | Val Dice Coefficient | Val Accuracy | Val Loss |
+| :--------------------: | :--------------------------------: | :--------------------: | :------------: | :--------: | :------------------: | :----------: | :------: |
+| InceptionResNetV2-UNet | 45 (best at 34<sup>th</sup> epoch) |         0.8525         |     0.9152     |   0.2561   |        0.8112        |    0.8573    |  0.4268  |
 
 <p align="center"><img width = "98%" height= "auto" src="./readme_images/model_metrics_plot.png" /></p>
 
@@ -162,13 +161,12 @@ All predictions on the validation set are available in the <a href="./prediction
 
 Activations/Outputs of some layers of the model:
 
-| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/1_conv2d.png" /><b>conv2d</b></p>    | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/14_conv2d_4.png" /><b>conv2d_4</b></p>              | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/18_conv2d_8.png" /><b>conv2d_8</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/30_conv2d_10.png" /><b>conv2d_10</b></p>                |
-| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/67_conv2d_22.png" /><b>conv2d_22</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/89_conv2d_28.png" /><b>conv2d_28</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/96_conv2d_29.png" /><b>conv2d_29</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/111_conv2d_34.png" /><b>conv2d_34</b></p> |
-| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/118_conv2d_35.png" /><b>conv2d_35</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/133_conv2d_40.png" /><b>conv2d_40</b></p>                     | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/220_conv2d_61.png" /><b>conv2d_61</b></p>                | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/243_conv2d_70.png" /><b>conv2d_70</b></p>                     |
+| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/1_conv2d.png" /><b>conv2d</b></p>         | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/14_conv2d_4.png" /><b>conv2d_4</b></p>    | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/18_conv2d_8.png" /><b>conv2d_8</b></p>    | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/30_conv2d_10.png" /><b>conv2d_10</b></p>  |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/67_conv2d_22.png" /><b>conv2d_22</b></p>  | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/89_conv2d_28.png" /><b>conv2d_28</b></p>  | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/96_conv2d_29.png" /><b>conv2d_29</b></p>  | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/111_conv2d_34.png" /><b>conv2d_34</b></p> |
+| <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/118_conv2d_35.png" /><b>conv2d_35</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/133_conv2d_40.png" /><b>conv2d_40</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/220_conv2d_61.png" /><b>conv2d_61</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/243_conv2d_70.png" /><b>conv2d_70</b></p> |
 
 Some more activation maps are available in the <a href="./activations">`activations`</a> directory.
-
 
 ## References
 
