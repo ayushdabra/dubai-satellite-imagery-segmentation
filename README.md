@@ -92,7 +92,6 @@ Here are some sample augmented images and masks from the dataset:
 <p align="center"><img width = "90%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
 
 <p align="center">Source: <a href="https://arxiv.org/pdf/1602.07261v2.pdf">https://arxiv.org/pdf/1602.07261v2.pdf</a></p>
-<br>
 
 ### UNet Architecture
 
