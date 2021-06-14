@@ -1,4 +1,4 @@
-# Dubai Satellite Imagery Semantic Segmentation
+# Dubai Satellite Imagery Semantic Segmentation Using Deep Learning
 
 ## Abstract
 
