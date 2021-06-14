@@ -79,11 +79,7 @@ Here are some sample augmented images and masks from the dataset:
 
 <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t5_004.jpg" /></p>
 
-<br>
-
 <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t3_002.jpg" /></p> -
-
-<br> 
 
 <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t6_007.jpg" /></p>
 
