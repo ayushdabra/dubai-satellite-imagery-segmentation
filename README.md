@@ -3,7 +3,7 @@
 ## Abstract
 
 <p align="justify">
-Semantic segmentation is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. In this project, I have performed semantic segmentation on <a href="https://humansintheloop.org/resources/datasets/semantic-segmentation-dataset/">Dubai's Satellite Imagery Dataset</a> by using transfer learning on a InceptionResNetV2 encoder based UNet CNN model. In order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation on the training set. The model performed well, and achieved ~81% dice coefficient on the validation set.
+Semantic segmentation is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. In this project, I have performed semantic segmentation on <a href="https://humansintheloop.org/resources/datasets/semantic-segmentation-dataset/">Dubai's Satellite Imagery Dataset</a> by using transfer learning on a InceptionResNetV2 encoder based UNet CNN model. In order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation on the training set. The model has achieved ~81% dice coefficient and ~86% accuracy on the validation set.
 </p>
 
 ## Libraries Used
