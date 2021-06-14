@@ -26,11 +26,7 @@ The Jupyter Notebook can be accessed from <a href="./dubai-satellite-imagery-seg
 <a href="https://humansintheloop.org/">Humans in the Loop</a> has published an open access dataset annotated for a joint project with the <a href="https://www.mbrsc.ae/">Mohammed Bin Rashid Space Center</a> in Dubai, the UAE. The dataset consists of aerial imagery of Dubai obtained by MBRSC satellites and annotated with pixel-wise semantic segmentation in 6 classes. The images were segmented by the trainees of the Roia Foundation in Syria.
 </p>
 
-<p align="center">
-<img src="./readme_images/MBRSC-Logo.png" />
-</p>
-
-<br>
+<p align="center"><img src="./readme_images/MBRSC-Logo.png" /></p>
 
 ### Semantic Annotation
 
@@ -45,15 +41,8 @@ The images are densely labeled and contain the following 6 classes:
 | Water      | 226 | 169 | 41  | <p align="center"><img width = "30" height= "20" src="./readme_images/label_water.png" /></p>      |
 | Unlabeled  | 155 | 155 | 155 | <p align="center"><img width = "30" height= "20" src="./readme_images/label_unlabeled.png" /></p>  |
 
-<br>
 
 ### Sample Images & Masks
-
-<!-- | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_004.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t7_002.jpg" /></p> |
-| :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_003.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_006.jpg" /></p> |
-| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t6_002.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t4_001.jpg" /></p> | -->
-<br>
 
 <p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t8_004.jpg" /></p>
 
@@ -98,10 +87,6 @@ Here are some sample augmented images and masks from the dataset:
 
 <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t6_007.jpg" /></p>
 
-<!-- <br>
-
-<p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t4_006.jpg" /></p> -->
-
 ## InceptionResNetV2 Encoder based UNet Model
 
 ### InceptionResNetV2 Architecture
@@ -115,13 +100,9 @@ Here are some sample augmented images and masks from the dataset:
 
 ### UNet Architecture
 
-<br>
-
 <p align="center"><img width = "80%" height= "auto" src="./readme_images/UNet.png" /></p>
 
 <p align="center">Source: <a href="https://arxiv.org/pdf/1505.04597.pdf">https://arxiv.org/pdf/1505.04597.pdf</a></p>
-
-<br>
 
 ### InceptionResNetV2-UNet Architecture
 
