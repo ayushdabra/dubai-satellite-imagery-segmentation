@@ -49,10 +49,19 @@ The images are densely labeled and contain the following 6 classes:
 
 ### Sample Images & Masks
 
-| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_004.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t7_002.jpg" /></p> |
+<!-- | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_004.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t7_002.jpg" /></p> |
 | :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
 | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_003.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t8_006.jpg" /></p> |
-| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t6_002.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t4_001.jpg" /></p> |
+| <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t6_002.jpg" /></p> | <p align="center"><img width = "auto" height= "auto" src="./readme_images/sample_image_t4_001.jpg" /></p> | -->
+<br>
+
+<p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t8_004.jpg" /></p>
+
+<p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t8_003.jpg" /></p>
+
+<p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t4_001.jpg" /></p>
+
+<p align="center"><img width = "95%" height= "auto" src="./readme_images/sample_image_t6_002.jpg" /></p>
 
 ## Technical Approach
 
@@ -83,15 +92,15 @@ Here are some sample augmented images and masks from the dataset:
 
 <br>
 
-<!-- <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t3_002.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t3_002.jpg" /></p> -
 
-<br> -->
+<br> 
 
 <p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t6_007.jpg" /></p>
 
-<br>
+<!-- <br>
 
-<p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t4_006.jpg" /></p>
+<p align="center"><img width = "auto" height= "auto" src="./readme_images/aug_image_image_t4_006.jpg" /></p> -->
 
 ## InceptionResNetV2 Encoder based UNet Model
 
@@ -99,7 +108,7 @@ Here are some sample augmented images and masks from the dataset:
 
 <br>
 
-<p align="center"><img width = "85%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
+<p align="center"><img width = "90%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
 
 <p align="center">Source: <a href="https://arxiv.org/pdf/1602.07261v2.pdf">https://arxiv.org/pdf/1602.07261v2.pdf</a></p>
 <br>
@@ -167,6 +176,9 @@ Activations/Outputs of some layers of the model:
 | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/118_conv2d_35.png" /><b>conv2d_35</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/133_conv2d_40.png" /><b>conv2d_40</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/220_conv2d_61.png" /><b>conv2d_61</b></p> | <p align="center"><img width = "auto" height= "auto" src="./activations/compressed/243_conv2d_70.png" /><b>conv2d_70</b></p> |
 
 Some more activation maps are available in the <a href="./activations">`activations`</a> directory.
+
+Code for visualizing activations is in the <a href="./get_activations.py">`get_activations.py`</a> file.
+
 
 ## References
 
