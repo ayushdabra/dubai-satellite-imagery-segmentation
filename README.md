@@ -6,7 +6,7 @@
 Semantic segmentation is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. In this project, I have performed semantic segmentation on <a href="https://humansintheloop.org/resources/datasets/semantic-segmentation-dataset/">Dubai's Satellite Imagery Dataset</a> by using transfer learning on a InceptionResNetV2 encoder based UNet CNN model. In order to artificially increase the amount of data and avoid overfitting, I preferred using data augmentation on the training set. The model has achieved ~81% dice coefficient and ~86% accuracy on the validation set.
 </p>
 
-## Libraries Used
+<!-- ## Libraries Used
 
 - NumPy
 - Pandas
@@ -17,6 +17,16 @@ Semantic segmentation is the task of clustering parts of an image together which
 - Tensorflow
 - Keras
 - Keract
+
+The Jupyter Notebook can be accessed from <a href="./dubai-satellite-imagery-segmentation.ipynb">here</a>. -->
+
+## Tech Stack
+
+|<a href="https://www.python.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/python.png" /></p></a>|<a href="https://jupyter.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/jupyter.png" /></p></a>|<a href="https://ipython.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/IPython.png" /></p></a>|<a href="https://numpy.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/numpy.png" /></p></a>|<a href="https://pandas.pydata.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/pandas.png" /></p></a>|
+|---|---|---|---|---|
+
+|<a href="https://matplotlib.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/matplotlib.png" /></p></a>|<a href="https://opencv.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/opencv.png" /></p></a>|<a href="https://albumentations.ai/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/albumentations.png" /></p></a>|<a href="https://keras.io/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/keras.png" /></p></a>|<a href="https://www.tensorflow.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/tensorflow.png" /></p></a>|<a href="https://github.com/philipperemy/keract"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/keract.png" /></p></a>|
+|---|---|---|---|---|---|
 
 The Jupyter Notebook can be accessed from <a href="./dubai-satellite-imagery-segmentation.ipynb">here</a>.
 
@@ -86,8 +96,6 @@ Here are some sample augmented images and masks from the dataset:
 ## InceptionResNetV2 Encoder based UNet Model
 
 ### InceptionResNetV2 Architecture
-
-<br>
 
 <p align="center"><img width = "90%" height= "auto" src="./readme_images/InceptionResNetV2.jpeg" /></p>
 
