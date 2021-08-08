@@ -1,3 +1,13 @@
+<p>
+<a href="https://colab.research.google.com/drive/1xaxxrE8qzTWsHfdOO09NGjrEu4WHQPLy#scrollTo=E8vL3FQbl1_5">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> 
+
+<a href="https://mybinder.org/v2/gh/ayushdabra/dubai-satellite-imagery-segmentation/HEAD">
+<img src="https://mybinder.org/badge_logo.svg" alt="launch binder"/>
+</a>
+</p>
+
 # Dubai Satellite Imagery Semantic Segmentation Using Deep Learning
 
 ## Abstract
