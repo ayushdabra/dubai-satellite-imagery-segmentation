@@ -40,7 +40,7 @@ The Jupyter Notebook can be accessed from <a href="./dubai-satellite-imagery-seg
 
 The Jupyter Notebook can be accessed from <a href="./dubai-satellite-imagery-segmentation.ipynb">here</a>.
 
-The pre-trained model weights can be accessed from <a href="https://www.kaggle.com/code/ayushdabra/inceptionresnetv2-unet-81-dice-coeff-86-acc/data">here</a>.
+The pre-trained model weights can be accessed from <a href="https://www.kaggle.com/code/ayushdabra/inceptionresnetv2-unet-81-dice-coeff-86-acc/data?select=InceptionResNetV2-UNet.h5">here</a>.
 
 ## Dataset
 
