@@ -38,7 +38,7 @@ The Jupyter Notebook can be accessed from <a href="./dubai-satellite-imagery-seg
 |<a href="https://matplotlib.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/matplotlib.png" /></p></a>|<a href="https://opencv.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/opencv.png" /></p></a>|<a href="https://albumentations.ai/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/albumentations.png" /></p></a>|<a href="https://keras.io/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/keras.png" /></p></a>|<a href="https://www.tensorflow.org/"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/tensorflow.png" /></p></a>|<a href="https://github.com/philipperemy/keract"><p align="center"><img width = "auto" height= "auto" src="./readme_images/tech_stack/keract.png" /></p></a>|
 |---|---|---|---|---|---|
 
-The Jupyter Notebook can be accessed from <a href="./dubai-satellite-imagery-segmentation.ipynb">here</a>.
+The Jupyter Notebook can be accessed from <a href="https://www.kaggle.com/code/ayushdabra/inceptionresnetv2-unet-81-dice-coeff-86-acc/notebook">here</a>.
 
 The pre-trained model weights can be accessed from <a href="https://www.kaggle.com/code/ayushdabra/inceptionresnetv2-unet-81-dice-coeff-86-acc/data?select=InceptionResNetV2-UNet.h5">here</a>.
 
